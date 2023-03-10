@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+    <test verbose="2" preserve-order="true" name="C:/Users/hemakumar.guru/IdeaProjects/org.smartbazzar.com">
+        <classes>
+            <class name="TestRunner.TestRunner"/>
+       <class name="TestRunner.TestRunner2"/>
+
+        </classes>
+    </test>
+</suite>

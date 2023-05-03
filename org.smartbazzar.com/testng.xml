@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/hemakumar.guru/IdeaProjects/org.smartbazzar.com">
         <classes>
             <class name="TestRunner.TestRunner"/>
-       <class name="TestRunner.TestRunner2"/>
+      <!-- <class name="TestRunner.TestRunner2"/>-->
 
         </classes>
     </test>

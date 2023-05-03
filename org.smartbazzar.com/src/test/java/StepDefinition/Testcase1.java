@@ -11,11 +11,11 @@ import org.testng.Reporter;
 
 public class Testcase1 {
     @Given("User opens the Browser")
-    public void user_opens_the_browser() {
+    public void user_opens_the_browser() throws Exception {
         Browser.OpenBrowser();
     }
     @Then("User enters the url {string}")
-    public void user_enters_the_url(String string) {
+    public void user_enters_the_url(String string) throws Exception {
         Browser.OpenApplication(string);// stores url from feature file.
     }
     @And("User verifies the title of the application")

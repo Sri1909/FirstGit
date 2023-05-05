@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Action to integarte browserstack with GitHub actions
+name: Integrate Github
 
 # Controls when the workflow will run
 on:

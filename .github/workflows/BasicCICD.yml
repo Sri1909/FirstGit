@@ -12,6 +12,8 @@ on:
        required: true
        default: TestSample
 
+env:
+  APP_DIR: org.smartbazzar.com
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -31,4 +33,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: mvn clean install -PSmokeTest
+        working-directory: org.smartbazzar.com
         

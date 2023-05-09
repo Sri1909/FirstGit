@@ -50,10 +50,10 @@ public class Browser {
         String browserstack_AccessKey = Browser.fileProperties("bsAccessKey");
         if (choice.equalsIgnoreCase("Chrome")) {
             WebDriverManager.chromedriver().setup();
-         /* ChromeOptions options = new ChromeOptions();
+         ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
-            driver = new ChromeDriver(options);*/
-           driver=new ChromeDriver();
+            driver = new ChromeDriver(options);
+         //  driver=new ChromeDriver();
             act= new Actions(driver);
         } else if (choice.equalsIgnoreCase("Firefox")) {
             WebDriverManager.firefoxdriver().setup();
